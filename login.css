@@ -1,0 +1,96 @@
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("library.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-attachment: fixed;
+   opacity: .0.5;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 800px;
+  bottom: 100px;
+  margin: 20px;
+  max-width: 300px;
+  padding: 20px;
+  background-color: #ffd699;
+  border-radius: 4px;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+   border-radius: 4px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: orange;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 30px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+/* Set a style for the login img */
+img {
+  width: 30%;
+  border-radius: 50%;
+  right: 20px;
+ position: absolute;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Set a style for the forgot psw */
+span{
+  float: right;
+  text-decoration: none;
+}
+.header{
+  background-color: #ffd699;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Tilt Prism', cursive;
+  padding: 20px;
+  border:black solid 4px;
+  position: sticky;
+  top: 0;
+}
+.mqr{
+  background-color: #ffd699;
+  color: darkred;
+  border:black solid 4px;
+
+}

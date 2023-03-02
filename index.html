@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/5087/5087579.png">
+	<script src="https://kit.fontawesome.com/aea1661299.js" crossorigin="anonymous"></script>	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<title>NIMSME Log-in Page</title>
+</head>
+<body class="bg-img">
+  <h1 class="header">WELCOME TO NI-MSME LIBRARY</h1>
+  <marquee class="mqr">
+    <pre><q>The minute somebody turns television on, I go to the library and read a good book.</pre></marquee>
+	<div >
+  <form action="home.html" method="post" class="container">
+    
+  	<img src="avatar.png" alt="Log-in">
+
+    <h1>Log In</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" id="email" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" id="psw" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Log In</button>
+    <br><br>
+    <div>
+     <label for="rmbr">
+        <input type="checkbox" id="rmbr" checked="checked" name="remember"> Remember Me</label>
+        <span class="psw"><a href="fp.html" target="_blank">Forgot password</a></span>
+      </div>
+      <br><hr><br>
+       <button onclick = "window.location.href='regn.html';" class="btn">Sign Up</button>
+
+  </form>
+</div>
+</body>
+</html>

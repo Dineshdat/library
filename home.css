@@ -1,0 +1,67 @@
+body{
+	background-color: rgb(255, 214, 153);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	border: black solid 4px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  border: 2px solid white;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right:2px solid white;
+}
+
+.topnav a:hover {
+  background-color: orange;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: orange;
+  color: white;
+}
+.header{
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Tilt Prism', cursive;
+  padding: 20px;
+}
+.topnav a.split{
+	float:right;
+}
+.subhead{
+	text-decoration: underline black solid 2px;
+	text-align: center;
+}
+.fa-google {
+  color: darkolivegreen;
+}
+
+.fa-linkedin {
+  color: darkolivegreen;
+}
+
+.fa-youtube {
+  color: darkolivegreen;
+}
+
+.fa-instagram {
+  color: darkolivegreen;
+}
+.lo{
+  text-align: center;
+  color: darkgreen;
+}
